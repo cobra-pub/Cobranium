@@ -1,0 +1,3 @@
+[submodule "Cobranium/vendor/spdlog"]
+	path = Cobranium/vendor/spdlog
+	url = https://github.com/gabime/spdlog
