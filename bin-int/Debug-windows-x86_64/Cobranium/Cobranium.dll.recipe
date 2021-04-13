@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\Adam\Cobranium\bin\Debug-x64\Cobranium\Cobranium.dll</FullPath>
+      <FullPath>E:\Adam\Cobranium\bin\Debug-windows-x86_64\Cobranium\Cobranium.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

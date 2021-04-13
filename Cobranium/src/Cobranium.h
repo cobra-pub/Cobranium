@@ -3,6 +3,7 @@
 
 
 #include "CobraniumEngine/Application.h"
+#include "CobraniumEngine/Log.h"
 
 //---Entry Point--------------------------
 #include "CobraniumEngine/EntryPoint.h"

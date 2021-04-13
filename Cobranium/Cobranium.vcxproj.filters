@@ -1,42 +1,50 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="CobraniumEngine">
+      <UniqueIdentifier>{9B70BDA9-07FC-2A6E-100D-AE627C17876E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="CobraniumEngine\Events">
+      <UniqueIdentifier>{1F009157-0BFA-B9A9-F466-50BAE0FF1F16}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Test.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\CEpch.h" />
+    <ClInclude Include="src\Cobranium.h" />
+    <ClInclude Include="src\CobraniumEngine\Application.h">
+      <Filter>CobraniumEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\CobraniumEngine\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\CobraniumEngine\Application.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Cobranium.h">
-      <Filter>Header Files</Filter>
+      <Filter>CobraniumEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\CobraniumEngine\EntryPoint.h">
-      <Filter>Header Files</Filter>
+      <Filter>CobraniumEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\CobraniumEngine\Events\ApplicationEvent.h">
+      <Filter>CobraniumEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CobraniumEngine\Events\Event.h">
+      <Filter>CobraniumEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CobraniumEngine\Events\KeyEvent.h">
+      <Filter>CobraniumEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CobraniumEngine\Events\MouseEvent.h">
+      <Filter>CobraniumEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CobraniumEngine\Log.h">
+      <Filter>CobraniumEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Test.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="src\CEpch.cpp" />
     <ClCompile Include="src\CobraniumEngine\Application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>CobraniumEngine</Filter>
     </ClCompile>
+    <ClCompile Include="src\CobraniumEngine\Log.cpp">
+      <Filter>CobraniumEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Test.cpp" />
   </ItemGroup>
 </Project>
